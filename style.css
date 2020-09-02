@@ -6,3 +6,56 @@
   color: #6c6b6b;
 }
 
+.ul {
+  margin-top: 50px;
+}
+
+.li {
+  width: 960px;
+  height: 50px;
+  background-color: white;
+  padding: 20px ;
+  text-align: left;
+}
+
+.li:nth-child(odd) {
+  background-color: gainsboro;
+}
+
+.box-item {
+  display: flex;
+  flex-wrap: wrap;
+  width: 960px;
+  height: 680px;
+  margin: 50px 0px 50px 0px;
+}
+
+.box {
+  width: 30%;
+  height: 200px;
+  background-color: yellow;
+}
+
+.box:nth-child(1) {
+  background-color: orange;
+  margin: 0px 5% 40px 0px;
+}
+.box:nth-child(2) {
+  margin: 0px 5% 0px 0px;
+}
+.box:nth-child(4) {
+  margin: 0px 5% 40px 0px;
+}
+.box:nth-child(5) {
+  background-color: orange;
+  margin: 0px 5% 0px 0px;
+}
+.box:nth-child(7) {
+  margin: 0px 5% 0px 0px;
+}
+.box:nth-child(8) {
+  margin: 0px 5% 0px 0px;
+}
+.box:nth-child(9) {
+  background-color: orange;
+}
